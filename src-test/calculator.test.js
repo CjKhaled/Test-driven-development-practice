@@ -1,6 +1,6 @@
 import calculator from "../src/calculatorObj"
 
-test("Adds correctly", () => {
+test("Functions correctly", () => {
     expect(calculator.add(3, 2)).toBe(5)
     expect(calculator.subtract(3, 2)).toBe(1)
     expect(calculator.multiply(3, 2)).toBe(6)
